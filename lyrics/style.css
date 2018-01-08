@@ -1,7 +1,36 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:900i');
+@import url('https://fonts.googleapis.com/css?family=Roboto:900');
+
+*{
+	background-color: #b50e0e;
+	color: white;
+	box-sizing: border-box;
+}
+
 
 h1{
 	text-transform: uppercase;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
+	margin: 350px 300px;
+	font-size: 4.5em;
 }
+
+.linetwo{
+	font-size: 4em;
+	overflow: scroll;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	border: 10px solid white;
+	padding:10px;
+	margin: 500px auto;
+	width: 1000px;
+	height: 110px;
+}
+
+.linethree{
+	font-family: 'Roboto', sans-serif;
+	font-size: 2em;
+	margin: 200px 400px;
+	font-style: normal
+	}
