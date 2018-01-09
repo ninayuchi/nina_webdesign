@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Sedgwick+Ave+Display');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Rock+Salt|Sedgwick+Ave+Display');
+
+h2{
+	font-family: 'Sedgwick Ave Display', cursive;
+	color: orange;
+	font-size: 2em;
+}
+h3{
+	font-family: 'Sedgwick Ave Display', cursive;
+	color: orange;
+}
+
+h1{
+	color:red;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 3em;
+}
+
+.yellow{
+	background: yellow;
+}
+
+p{
+	font-family: 'Rock Salt', cursive;
+}
+
+ol{
+	font-family: 'Rock Salt', cursive;
+}
+
+.box{
+
+}
