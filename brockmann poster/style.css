@@ -1,3 +1,6 @@
+*{
+	box-sizing: border-box;
+}
 .text{
 	font-family: sans-serif;
 	font-weight: bold;
@@ -7,14 +10,14 @@
 	font-size: 3em;
 	position: relative;
 	top: 10px;
-	left: 1000px;
+	right: 10px;
 }
 
 .author{
 	font-size: 2em;
 	position: relative;
 	top: 1000px;
-	left: 1000px;
+	right: 10px;
 }
 
 section div{
@@ -33,12 +36,12 @@ section div{
 	position: relative;
 	left: 400px;
 	overflow: hidden;
-	animation: move 1s linear infinite normal;
+	animation: left 1s linear 0.2s infinite normal;
 }
 
 .middle{
 	position: relative;
-	left: 450px;
+/*	left: 450px;*/
 }
 
 section div:nth-child(3n) {
@@ -48,6 +51,7 @@ section div:nth-child(3n) {
 	display: inline-block;
 	position: relative;
 	left: 500px;
+	animation: right 1s linear 0.2s infinite normal;
 }
 
 #yellow{
@@ -59,11 +63,21 @@ section div:nth-child(3n) {
 
 }
 
-/*@keyframes move{
+@keyframes left{
 	0%{
-		left: 400px;
+		left: 50%;
 	}
-	50%{
+	100%{
+		left: 25%;
+	}
+}
 
+@keyframes right{
+		0%{
+		left: 50%;
 	}
-}*/
+	100%{
+		left: 75%;
+	}
+}
+

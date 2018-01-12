@@ -1,0 +1,41 @@
+*{
+	box-sizing: border-box;
+	background-color: #af2323;
+}
+
+#poster div{
+	width: 500px;
+	height: 100px;
+	margin: 0 auto
+}
+
+#poster .red{
+	background-color: #8c1616;
+	position: relative;
+	left: 300px;
+}
+
+#poster .black{
+	background-color: black;
+}
+
+/*#poster{
+	transform: rotate(315deg);
+	transform-origin: bottom-left;*/
+}
+
+#text{
+	display: flex;
+	align-items: baseline;
+	font-family: sans-serif;
+}
+
+#text .left, .middle{
+	flex: 1;
+	font-size: 3em;
+}
+
+#text .right{
+	flex: 1;
+	font-size: 1em;
+}
