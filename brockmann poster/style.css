@@ -1,3 +1,69 @@
 .text{
-	
+	font-family: sans-serif;
+	font-weight: bold;
 }
+
+.artist{
+	font-size: 3em;
+	position: relative;
+	top: 10px;
+	left: 1000px;
+}
+
+.author{
+	font-size: 2em;
+	position: relative;
+	top: 1000px;
+	left: 1000px;
+}
+
+section div{
+	background-color: black;
+	max-width: 600px;
+	height: 150px;
+	margin: 0 auto;
+/*	transform: rotate(-45deg);*/
+}
+
+.red{
+	background-color: red;
+	width: 400px;
+	height: 70px;
+	display: inline-block;
+	position: relative;
+	left: 400px;
+	overflow: hidden;
+	animation: move 1s linear infinite normal;
+}
+
+.middle{
+	position: relative;
+	left: 450px;
+}
+
+section div:nth-child(3n) {
+	background-color: yellow;
+	width: 400px;
+	height: 70px;
+	display: inline-block;
+	position: relative;
+	left: 500px;
+}
+
+#yellow{
+	position: relative;
+	left: 550px;
+}
+
+@media screen and (max-width: 1000px){
+
+}
+
+/*@keyframes move{
+	0%{
+		left: 400px;
+	}
+	50%{
+
+	}
+}*/
