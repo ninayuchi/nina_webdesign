@@ -3,10 +3,10 @@
 	background-color: #af2323;
 }
 
-#poster div{
+#poster div{			 
 	width: 500px;
 	height: 100px;
-	margin: 0 auto
+	margin: 0 auto;
 }
 
 #poster .red{
@@ -19,15 +19,15 @@
 	background-color: black;
 }
 
-/*#poster{
+#poster{
 	transform: rotate(315deg);
-	transform-origin: bottom-left;*/
-}
+	transform-origin: bottom-left;
+	}
 
 #text{
+	font-family: sans-serif;
 	display: flex;
 	align-items: baseline;
-	font-family: sans-serif;
 }
 
 #text .left, .middle{
