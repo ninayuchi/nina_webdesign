@@ -68,6 +68,12 @@ img{
 	border: .5px solid darkgrey;
 }
 
+p{
+	text-align: center;
+	width: 100%;
+	font-size: 2em;
+}
+
 #button{
 	text-align: center;
 	color: white;
@@ -81,4 +87,8 @@ img{
 	left: 90%;
 	box-shadow: 0px 0px 30px rgba(0,0,0,0.3);
 	border: .5px solid darkgrey;
+}
+
+#button:hover{
+	background-color: #007777;
 }
