@@ -17,10 +17,10 @@ h1{
 	padding: 9% 5% 0% 3%;
 	z-index: 10;
 	box-shadow: inset 0px 0px 30px rgba(0,0,0,0.4);
-	border: .5px solid darkgrey;
+	border: .5px solid teal;
 }
 
-#pasta1, #pasta2, #pasta3{
+#design1, #design2, #design3{
 	margin: 0 auto;
 	display: block;
 	max-height: 1000px;
@@ -35,21 +35,20 @@ h1{
 	background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    border: .5px solid darkgrey;
 }
 
 .picture1{
-	margin-top:17%;
-	background-image: url(https://www.budgetbytes.com/wp-content/uploads/2017/07/Kale-Pesto-Pasta-close.jpg);
+	background-image: url(https://storage.googleapis.com/material-design/publish/material_v_12/assets/0Bx4BSt6jniD7UXpQYWltVjNPWXc/whatismaterial-environment-3d.png);
+    margin-top: 17%;
 }
 
 .picture2{
-	background-image: url(https://www.joyofkosher.com/.image/t_share/MTMxNzYzODIxNTIwODkwNDk5/pesto-pasta.jpg);
-    margin-top: 2%;
+	margin-top:2%;
+	background-image: url(https://storage.googleapis.com/material-design/publish/material_v_12/assets/0Bzhp5Z4wHba3VG9SaVpNbkpHb2s/whatismaterial-3d-elevation2.png)
 }
 
 .picture3{
-	background-image: url(http://www.simplesweetsavory.com/wp-content/uploads/2016/01/Chicken-Green-Veggie-Pesto-Pasta-wide-side.jpg);
+	background-image: url(https://storage.googleapis.com/material-design/publish/material_v_12/assets/0Bzhp5Z4wHba3d0FBTnJBVVNoeEE/accessibility-hierarchy-1-do.png);
     margin-top: 2%;
 }
 
