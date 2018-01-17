@@ -1,3 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 *{
-	
+	box-sizing: border-box;
+	font-family: "Roboto", sans-serif;
+}
+
+nav{
+	float:left;
+	position: fixed;
+	display: inline-block;
+	max-height: 100%;
+	max-width: 20%;
+}
+
+nav .navigation{
+	max-width: 100%;
+/*	max-height: 12.5%;*/
+	background-color: white;
+	color: black;
+	font-size: 2em;
+}
+
+nav .navigation:nth-child(2n){
+	background-color: black;
+	color: white;
 }
