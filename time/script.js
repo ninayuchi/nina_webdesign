@@ -77,6 +77,65 @@ $(document).ready(function(){
 		$("h3").css("color", "white");
 	});
 
+	$(".day15").click(function(){
+		$(".pic15").toggleClass("hidden");
+	});
+
+	$(".day15").mouseenter(function(){
+		$("body").css("background-color", "lightgrey");
+		$("h3").css("color", "lightgrey");
+		$(".day15").css("color", "white");
+	});
+
+	$(".day15").mouseleave(function(){
+		$("body").css("background-color", "white");
+		$("h3").css("color", "white");
+	});
+
+	$(".day14").click(function(){
+		$(".pic14").toggleClass("hidden");
+	});
+
+	$(".day14").mouseenter(function(){
+		$("body").css("background-color", "lightgrey");
+		$("h3").css("color", "lightgrey");
+		$(".day14").css("color", "white");
+	});
+
+	$(".day14").mouseleave(function(){
+		$("body").css("background-color", "white");
+		$("h3").css("color", "white");
+	});
+
+	$(".day13").click(function(){
+		$(".pic13").toggleClass("hidden");
+	});
+
+	$(".day13").mouseenter(function(){
+		$("body").css("background-color", "lightgrey");
+		$("h3").css("color", "lightgrey");
+		$(".day13").css("color", "white");
+	});
+
+	$(".day13").mouseleave(function(){
+		$("body").css("background-color", "white");
+		$("h3").css("color", "white");
+	});
+
+	$(".day12").click(function(){
+		$(".pic12").toggleClass("hidden");
+	});
+
+	$(".day12").mouseenter(function(){
+		$("body").css("background-color", "lightgrey");
+		$("h3").css("color", "lightgrey");
+		$(".day12").css("color", "white");
+	});
+
+	$(".day12").mouseleave(function(){
+		$("body").css("background-color", "white");
+		$("h3").css("color", "white");
+	});
 
 //WEEK
 	$(".tuesdaypic").click(function(){
@@ -100,5 +159,32 @@ $(document).ready(function(){
 		$("div, p, body").toggleClass("white");
 		$("div, p, body").toggleClass("grey");	});
 
+//NULL
 
+	$(".nullpic").click(function(){
+		$(".null").css("color", "lightgrey");
+	});
+
+	$("p").click(function(){
+		$(".null, body").removeClass("white");
+		$(".null, body").addClass("grey");
+		$(".null").css("color", "white");
+		$(".one").removeClass("hidden");
+	});
+
+	$(".one").click(function(){
+		$(".two").removeClass("hidden");
+	});
+
+	$(".two").click(function(){
+		$(".three").removeClass("hidden");
+	});
+
+	$(".three").click(function(){
+		$(".four").removeClass("hidden");
+	});
+
+	$(".four").click(function(){
+		$(".home").removeClass("hidden");
+	});
 });

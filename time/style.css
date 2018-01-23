@@ -21,12 +21,13 @@ h1{
 #dates h3{
 	color: white;
 	cursor: pointer;
+	margin-left: 20%;
 }
 
 #dates div{
 	display: inline-block;
 	position: relative;
-	width: 19%;
+	width: 11%;
 	height: 100%;
 	z-index: 0;
 }
@@ -34,20 +35,24 @@ h1{
 #dates img{
 	margin: 0 auto;
 	width: 15em;
-	padding: 0% 5% 5% 5%;
+	padding: 0% 5%;
 }
 
-a:visited{
-	visibility: visible;
-}
-
-#saturday{top: 80vh;}
+#saturday{top: 100vh;}
 
 #tuesday{top: 30em;}
 
 #friday{top: 70em;}
 
-#wednesday{top: 50em;}
+#wednesday{top: 15em;}
+
+#sunday{top: 30em;}
+
+#saturday1{top: 10em;}
+
+#friday1{top: 45em;}
+
+#monday{top: 90vh;}
 
 .hidden{
 	visibility: hidden;
@@ -70,14 +75,18 @@ p{
 	padding-top: 10vh;
 }
 
-.tuesdaypic img, .wednesdaypic img, .thursdaypic img, .fridaypic img, .saturdaypic img{
+.cursor{
+	cursor: pointer;
+}
+
+.nullpic img, .tuesdaypic img, .wednesdaypic img, .thursdaypic img, .fridaypic img, .saturdaypic img{
 	margin-left: 43%;
 	margin-right: 43%;
 	width: 15em;
 	cursor: pointer;
 }
 
-.tuesdaydiary, .wednesdaydiary, .thursdaydiary, .fridaydiary, .saturdaydiary{
+.null, .tuesdaydiary, .wednesdaydiary, .thursdaydiary, .fridaydiary, .saturdaydiary{
 	padding-top: 5%;
 }
 
@@ -87,4 +96,49 @@ p{
 
 .grey{
 	background-color: lightgrey;
+}
+
+.one, .two, .three, .four{
+	display: inline;
+}
+
+.two{
+	position: fixed;
+	width: 20%;
+	z-index: 20;
+	top: 15em;
+	left: 80em;
+}
+
+.one{
+	animation: move 3.5s linear 0.2s infinite alternate;
+	z-index: 2;
+	position: relative;
+}
+
+.four{
+	position: absolute;
+	animation: rotate 2s linear 0.2s infinite alternate;
+	width: 100vh;
+}
+
+@keyframes move {
+	0%  {
+		left: 5vh;
+	}
+	50% {
+		left: 30vh;
+	}
+	100%{
+ 		left: 60vh;
+ 	}
+}
+
+@keyframes rotate {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
 }
