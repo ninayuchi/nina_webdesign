@@ -1,1 +1,90 @@
-stefdvf
+*{
+	box-sizing: border-box;
+}
+
+body{
+	min-width: 900px;
+}
+
+h1{
+	color: lightgrey;
+	font-size: 5em;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 40vh;
+	position: fixed;
+	left: 30%;
+	right: 30%;
+	z-index: 10;
+}
+
+#dates h3{
+	color: white;
+	cursor: pointer;
+}
+
+#dates div{
+	display: inline-block;
+	position: relative;
+	width: 19%;
+	height: 100%;
+	z-index: 0;
+}
+
+#dates img{
+	margin: 0 auto;
+	width: 15em;
+	padding: 0% 5% 5% 5%;
+}
+
+a:visited{
+	visibility: visible;
+}
+
+#saturday{top: 80vh;}
+
+#tuesday{top: 30em;}
+
+#friday{top: 70em;}
+
+#wednesday{top: 50em;}
+
+.hidden{
+	visibility: hidden;
+}
+
+p{
+	color: white;
+	font-size: 1.2em;
+	width: 30%;
+	margin: 0 auto;
+	padding-top: 10%;
+	padding-bottom: 5%;
+	text-align: center;
+}
+
+.home{
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+	padding-top: 10vh;
+}
+
+.tuesdaypic img, .wednesdaypic img, .thursdaypic img, .fridaypic img, .saturdaypic img{
+	margin-left: 43%;
+	margin-right: 43%;
+	width: 15em;
+	cursor: pointer;
+}
+
+.tuesdaydiary, .wednesdaydiary, .thursdaydiary, .fridaydiary, .saturdaydiary{
+	padding-top: 5%;
+}
+
+.white{
+	background-color: white;
+}
+
+.grey{
+	background-color: lightgrey;
+}
