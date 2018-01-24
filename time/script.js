@@ -1,6 +1,16 @@
 $(document).ready(function(){
 
 // INDEX PAGE
+	$("h1").mouseenter(function(){
+		$("h1").css("color", "white");
+		$("body").css("background-color", "lightgrey");
+	});
+
+	$("h1").mouseleave(function(){
+		$("h1").css("color", "lightgrey");
+		$("body").css("background-color", "white");
+	});
+
 	$(".day20").click(function(){
 		$(".pic20").toggleClass("hidden");
 	});
@@ -141,23 +151,32 @@ $(document).ready(function(){
 	$(".tuesdaypic").click(function(){
 		$("div, p, body").toggleClass("white");
 		$("div, p, body").toggleClass("grey");
+		$(".home").toggleClass("hidden");
 	});
 
 	$(".wednesdaypic").click(function(){
 		$("div, p, body").toggleClass("white");
-		$("div, p, body").toggleClass("grey");	});
+		$("div, p, body").toggleClass("grey");
+		$(".home").toggleClass("hidden");
+	});
 
 	$(".thursdaypic").click(function(){
 		$("div, p, body").toggleClass("white");
-		$("div, p, body").toggleClass("grey");	});
+		$("div, p, body").toggleClass("grey");	
+		$(".home").toggleClass("hidden");
+	});
 
 	$(".fridaypic").click(function(){
 		$("div, p, body").toggleClass("white");
-		$("div, p, body").toggleClass("grey");	});
+		$("div, p, body").toggleClass("grey");
+		$(".home").toggleClass("hidden");
+	});
 
 	$(".saturdaypic").click(function(){
 		$("div, p, body").toggleClass("white");
-		$("div, p, body").toggleClass("grey");	});
+		$("div, p, body").toggleClass("grey");
+		$(".home").toggleClass("hidden");
+	});
 
 //NULL
 
