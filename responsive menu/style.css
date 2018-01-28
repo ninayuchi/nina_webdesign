@@ -1,0 +1,66 @@
+/*@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+*/
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+
+*{
+	box-sizing: border-box;
+	font-family: 'Work Sans', sans-serif;
+	background-color: black;
+}
+
+#navigation{
+	margin: 0 auto;
+	color: white;
+	background-color: black;
+	text-align: center;
+}
+
+img{
+	width: 40%;
+	padding: 0% 3% 3% 3%;
+}
+
+.title{
+	border: white solid 1px;
+	width: 50%;
+	margin: 0 auto;
+	padding: 1%;
+	text-transform: uppercase;
+	font-size: 1.5em;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+p{
+	text-align: center;
+	width: 50%;
+	margin: 0 auto;
+	border: white solid 1px;
+	padding: 1%;
+}
+
+.display{
+	display: inline-block;
+}
+
+@media screen and (max-width: 500px){
+	p{
+		display: none;
+		width: 90%;
+		padding: 5%;
+	}
+
+	img{
+		width: 100%;
+		padding: 8%;
+	}
+
+	.title{
+		padding: 5%;
+		width: 90%;
+		cursor: pointer;
+	}
+}
