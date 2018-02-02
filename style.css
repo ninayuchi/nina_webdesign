@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Vidaloka');
+
+*{
+	box-sizing: border-box;
+	/*font-family: 'Playfair Display', serif;*/
+	font-family: 'Vidaloka', serif;
+}
+
+#body{
+	margin: 5% 20%;
+}
+
+h1{
+	color: black;
+	font-size: 3em;
+}
+
+span{
+	font-size: 2em;
+	cursor: pointer;
+}
+
+a{
+	text-decoration: none;
+	color: red;
+}
+
+.hidden{
+	display: none;
+}

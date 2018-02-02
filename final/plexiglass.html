@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Plexiglass</title>
+    </head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<script type="text/javascript" src="script.js"></script>
+
+	<body onload="showSlides()">
+		<div id="header"> 
+			<a href="index.html"><header>Nina Ment</header></a>
+		<div id="category">
+			<button onmouseover="FunctionOne()" onmouseleave="FunctionOne()" class="dropbtn">Novelty Items</button>
+				<div id="myDropdownOne" class="dropdown-content"
+				onmouseleave="FunctionOne()">
+					<a href="hairdye.html">Hair Dye</a>
+					<a href="plexiglass.html">Plexiglass</a>
+				</div>
+			<button onmouseover="FunctionTwo()" onmouseleave="FunctionTwo()" class="dropbtn">Home Accessories</button>
+				<div id="myDropdownTwo" class="dropdown-content"
+				onmouseleave="FunctionTwo()">
+					<a href="razor.html">Razor</a>
+					<a href="plant.html">Dead Plant</a>
+					<a href="kazoo.html">Kazoo</a>
+				</div>
+			<button onmouseover="FunctionThree()" onmouseleave="FunctionThree()" class="dropbtn">Sale</button>
+				<div id="myDropdownThree" class="dropdown-content"
+				onmouseleave="FunctionThree()">
+					<a href="hersheys.html">Hershey's Wrapper</a>
+					<a href="chocolate.html">Chocolate Wrapper</a>
+					<a href="plastic.html">Plastic Wrapper</a>
+				</div>
+		</div>
+		</div>
+		
+		<!-- LEFT -->
+	<div id="container">
+		<div id="pictures">	
+			<div class="preview">
+				<img class="demo cursor" src="pics/2_1.jpg" onclick="currentSlide(1)">
+
+				<img class="demo cursor" src="pics/2_2.jpg" onclick="currentSlide(2)">
+
+				<img class="demo cursor" src="pics/2_3.jpg" onclick="currentSlide(3)">
+		</div>
+			
+			<div class="image">
+				<div class="mySlides">
+					<img src="pics/2_1.jpg">
+				</div>
+
+				<div class="mySlides">
+					<img src="pics/2_2.jpg">
+				</div>
+
+				<div class="mySlides">
+					<img src="pics/2_3.jpg">
+				</div>
+			</div>
+		</div>
+
+		<!-- RIGHT -->
+		<div id="body">
+				<h2>Plexiglass</h2>
+				<img class="stars" src="https://i.stack.imgur.com/sGnY4.jpg">
+				<div class="text">$69.00</div>
+				<div>Quantity:</div>
+				<div class="min button">
+					-
+				</div>
+				<span class="text">
+					<input type="text" name="qty" id="qty" size="5" class="textbox" maxlength="2"/>
+				</span>
+				<span class="plus button">
+					+
+				</span><br>
+				<button class="text bag" onclick="myFunction()">Add to Bag</button>
+				<div class="text">Product Description:</div>
+				<div class="description">A sturdy and reliable piece of plexiglass suited for all your organizational, aesthetic, and functional needs. This piece of plexiglass can be transformed and used as almost anything-- a plate, a frisbee, a litterbox-- you name it! Bonus: Includes a piece of black masking tape for absolutely no charge! Take advantage of this offer now!</div>
+				<div class="text">Dimensions and Product Details:</div>
+				<div class="description">8"x12", 3oz. Plexiglass and masking tape.</div>
+		</div>
+	</div>
+
+		<!-- BOTTOM -->
+		<div id="recs">
+			<h2>You May Also Be Interested In...</h2>
+
+			<div id="items">
+				<a href="razor.html"><div class="prod">
+					<img src="pics/4_1.jpg">
+					<div>Razor</div>
+				</div></a>
+
+				<a href="plant.html"><div class="prod">
+					<img src="pics/6_1.jpg">
+					<div>Dead Plant</div>
+				</div></a>
+
+				<a href="plastic.html"><div class="prod">
+					<img src="pics/8_1.jpg">
+					<div>Plastic Wrapper</div>
+				</div></a>
+
+				<a href="hersheys.html"><div class="prod">
+					<img src="pics/1_1.jpg">
+					<div>Hershey's Wrapper</div>
+				</div></a>
+
+			</div>
+		</div>
+
+		<!-- FOOTER -->
+		<div id="footer">
+			<div class="about"><a class="white" href="about.html">About</a></div>
+			<div class="contact"><a class="white" href="contact.html">Contact</a></div>
+			<div class="faq"><a class="white" href="faq.html">FAQ</a></div>
+		</div>
+	</body>
+</html>
