@@ -36,7 +36,8 @@ header{
 #category button{
 	color: white;
 	display: inline-block;
-	width: 20%;
+	width: 20%;/*
+	height: 50%;*/
 	font-family: sans-serif;
 	text-align: center;
 	padding: 2%;
@@ -206,6 +207,19 @@ button:hover{
 	line-height: 2.5em;
 }
 
+.ad2, .ad3{
+	display: inline-block;
+	width: 48%;
+}
+
+#ads img{
+	width: 100%;
+}
+
+#long-ads{
+	margin: 10% 5% 2% 5%;
+}
+
 /*BOTTOM*/
 #recs{
 	margin: 0% 20% 0% 20%;
@@ -269,8 +283,12 @@ a{
 }
 
 @media screen and (max-width: 1200px){
+	/*#header{
+		height: 10%;
+	}*/
+
 	#container, #recs{
-		margin: 0 10%;
+		margin: 0% 10%;
 	}
 
 	#pictures, #body{
