@@ -310,7 +310,7 @@ a{
 	}
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 700px){
 	header{
 		font-size: 4em;
 		padding-top: 5%;
