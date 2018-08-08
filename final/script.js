@@ -17,7 +17,7 @@ jQuery(function(){
 
 
 function myFunction() {
-    alert("Why would you buy "+ jQuery("#qty").val() + " of these? Reevaluate your life." );
+    alert("Error: Server has crashed. Please try again in a few minutes." );
 }
 
 function FunctionOne() {
@@ -54,3 +54,6 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+
+console.log(hi);
